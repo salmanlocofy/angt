@@ -12,21 +12,21 @@ import { LottieComponent } from "ngx-lottie";
 export class NonUILib {
   @HostBinding("style.display") display = "contents";
 
-  handleLoadStartWf(event: Event): void {
+  handleLoadStartLe(event: Event): void {
     const video = event.target as HTMLVideoElement;
     if (video) {
       video.volume = 0.8;
     }
   }
 
-  handleLoadStartZh(event: Event): void {
+  handleLoadStartQn(event: Event): void {
     const audio = event.target as HTMLAudioElement;
     if (audio) {
       audio.volume = 0.8;
     }
   }
 
-  handleLoadStartBn(event: Event): void {
+  handleLoadStartTk(event: Event): void {
     const audio = event.target as HTMLAudioElement;
     if (audio) {
       audio.volume = 0.8;
